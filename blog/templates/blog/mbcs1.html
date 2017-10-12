@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="urf-8"/>
+	<title>MBCS</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	{% load staticfiles %}
+	<link rel="stylesheet" href=" https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css"/>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/sheet.css' %}">
+	<meta name="description"content="we are the organization of local cloth store and we sell all types of clothes at very small price that you can order to see it at home "   />
+<style type="text/css">
+html
+body{height:100%}
+</style>
+</head>
+<body>
+<h1 align="center" color="red">MAA BASULI CLOTH STORE</H1>
+<p class="mbcs1" align="center"><i>WE DEAL IN EVERY TYPE OF CLOTHES</i></p>
+<p class="mbcs2" align="center"> YOU WILL NEED
+	
+</p>
+
+	<div id="nav">
+	<div  style="background-color:green">
+	<ul >
+	<li><a href="/home/" target="_blank"title="Homepage">Home</a></li>
+	<li><a href="/blog/"title="forums">blog</a></li>
+	
+	<li><a href=""title="contact us">Contact us</a></li>
+	<li><a href=""title="cart">Cart</a></li>
+	<li><a href=""title="replace">Replace</a></li>
+	</ul>
+</div>
+</div>
+
+<div class="col-sm-12">
+<div class="container-fluid">
+
+<br/>
+<div>
+	{% block content %}
+
+	{% endblock content%}  
+</div> 
+</div>
+</div>
+
+<a href="sample.html" title="awesom deals">Deals of the day</a>
+
+
+
+
+</body>
+</html>
